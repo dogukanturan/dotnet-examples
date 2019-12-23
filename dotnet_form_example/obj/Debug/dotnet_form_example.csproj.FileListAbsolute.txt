@@ -1,0 +1,10 @@
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\bin\Debug\dotnet_form_example.exe.config
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\bin\Debug\dotnet_form_example.exe
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\bin\Debug\dotnet_form_example.pdb
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.csprojAssemblyReference.cache
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.Properties.Resources.resources
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.csproj.GenerateResource.cache
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.exe
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.pdb
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.anasayfa.resources
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.listbox.resources
