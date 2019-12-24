@@ -52,6 +52,12 @@
     <Compile Include="anasayfa.Designer.cs">
       <DependentUpon>anasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="checkbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkbox.Designer.cs">
+      <DependentUpon>checkbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="listbox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="anasayfa.resx">
       <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkbox.resx">
+      <DependentUpon>checkbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="listbox.resx">
       <DependentUpon>listbox.cs</DependentUpon>

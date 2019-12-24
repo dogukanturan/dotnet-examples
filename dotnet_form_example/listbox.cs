@@ -79,5 +79,24 @@ namespace dotnet_form_example
         {
             listBox1.Items.Remove(listBox1.SelectedItem);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //
+            ListBox list = new ListBox();
+            for (int i = listBox3.Items.Count - 1; i >= 0; i--)
+                list.Items.Add(listBox3.Items[i]);
+            listBox3.Items.Clear();
+            foreach (var item in list.Items)
+                listBox3.Items.Add(item);
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string[] dizi = { "Sivas", "Cumhuriyet", "Üniversitesi", "Yönetim Bilişim Sistemleri" };
+            for (int i = 0; i < dizi.Length; i++)
+                listBox3.Items.Add(dizi[i].ToString());
+        }
     }
 }

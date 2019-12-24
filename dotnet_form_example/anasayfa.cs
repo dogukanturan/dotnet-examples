@@ -32,5 +32,11 @@ namespace dotnet_form_example
         {
             button1.BackColor = Color.Black;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            checkbox checkbox = new checkbox();
+            checkbox.ShowDialog();
+        }
     }
 }

@@ -8,3 +8,4 @@ C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\d
 C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.pdb
 C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.anasayfa.resources
 C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.listbox.resources
+C:\Users\dturan\source\repos\dotnet_form_example\dotnet_form_example\obj\Debug\dotnet_form_example.checkbox.resources
