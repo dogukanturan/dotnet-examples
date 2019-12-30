@@ -130,7 +130,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(71, 35);
             this.button7.TabIndex = 9;
-            this.button7.Text = "RANDOM KELİME";
+            this.button7.Text = "KELİME EKLE";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -152,6 +152,7 @@
             this.Name = "listbox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "listbox";
+            this.Load += new System.EventHandler(this.listbox_Load);
             this.ResumeLayout(false);
 
         }

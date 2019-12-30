@@ -1,0 +1,3 @@
+Merhaba Dünya
+Ben C# için yaratılmış bir
+metin belgesiyim

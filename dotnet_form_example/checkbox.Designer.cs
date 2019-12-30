@@ -163,6 +163,7 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Name = "checkbox";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "checkbox";
             this.ResumeLayout(false);
             this.PerformLayout();

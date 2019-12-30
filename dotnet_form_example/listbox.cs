@@ -82,21 +82,28 @@ namespace dotnet_form_example
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //
+            //listbox1'deki item'ları tersten tekrar listbox1'e ekleyen kod...
             ListBox list = new ListBox();
-            for (int i = listBox3.Items.Count - 1; i >= 0; i--)
-                list.Items.Add(listBox3.Items[i]);
-            listBox3.Items.Clear();
+            for (int i = listBox1.Items.Count - 1; i >= 0; i--)
+                list.Items.Add(listBox1.Items[i]);
+            listBox1.Items.Clear();
             foreach (var item in list.Items)
-                listBox3.Items.Add(item);
+                listBox1.Items.Add(item);
             
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
+            //listbox1'e kelime ekleme...
+            listBox1.Items.Clear();
             string[] dizi = { "Sivas", "Cumhuriyet", "Üniversitesi", "Yönetim Bilişim Sistemleri" };
             for (int i = 0; i < dizi.Length; i++)
-                listBox3.Items.Add(dizi[i].ToString());
+                listBox1.Items.Add(dizi[i].ToString());
+        }
+
+        private void listbox_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
